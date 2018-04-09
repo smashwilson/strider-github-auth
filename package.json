@@ -1,6 +1,6 @@
 {
   "name": "strider-github-oauth",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "GitHub OAuth login flow for Strider CD",
   "main": "webapp.js",
   "scripts": {
@@ -19,11 +19,11 @@
   "author": "Ash Wilson <smashwilson@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "async": "1.5.1",
-    "parse-link-header": "0.4.1",
-    "passport": "0.3.2",
-    "passport-github2": "0.1.10",
-    "request": "2.67.0"
+    "async": "2.6.0",
+    "parse-link-header": "1.0.1",
+    "passport": "0.4.0",
+    "passport-github2": "0.1.11",
+    "request": "2.85.0"
   },
   "strider": {
     "type": "basic",
@@ -33,10 +33,10 @@
     "icon": "icon.png"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
+    "chai": "^4.1.1",
     "deep-equal": "^1.0.1",
-    "dirty-chai": "^1.2.2",
-    "mocha": "^1.20.1",
-    "nock": "^4.0.0"
+    "dirty-chai": "^2.0.1",
+    "mocha": "^5.0.5",
+    "nock": "^9.2.3"
   }
 }
